@@ -49,8 +49,7 @@ cd "${oldwd}"
 
 
 jarfile=baksmali.jar
-#libdir="$progdir"
-libdir=~/bin
+libdir="$progdir"
 if [ ! -r "$libdir/$jarfile" ]
 then
     echo `basename "$prog"`": can't find $jarfile"

@@ -50,7 +50,6 @@ cd "${oldwd}"
 
 jarfile=smali.jar
 libdir="$progdir"
-libdir=~/bin/
 if [ ! -r "$libdir/$jarfile" ]
 then
     echo `basename "$prog"`": can't find $jarfile"
